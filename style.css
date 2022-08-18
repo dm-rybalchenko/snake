@@ -33,6 +33,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	border: 1px solid #000;
 	box-sizing: content-box;
 }
+.snake-game__body_fail{
+	background-color: #FF8000;
+	transition: 1s;
+}
 .snake-game__item{
 	position: absolute;
 	width: 10px;
